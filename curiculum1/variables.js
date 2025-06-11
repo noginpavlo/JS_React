@@ -16,3 +16,21 @@ console.log(numbers);
 numbers.push(8);
 console.log(numbers);
 
+// Task 4
+const profile = {
+  name: "Pavlo",
+  age: 29,
+  isActive: true,
+}
+console.log(profile.name);
+console.log(profile.age);
+console.log(profile.isActive);
+
+// Task 5
+const users = [
+  { username: "motherfucker3000", email: "motherfucker3000@gmail.com" },
+  { username: "goodguy03", email: "goodguy03@gmail.com" },
+]
+console.log(users[1].username);
+console.log(users[1].email);
+
