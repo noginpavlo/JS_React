@@ -32,3 +32,17 @@ for (let num = 1; num <= 5; num++) {
   console.log(num)
 }
 
+//Task 2
+console.log("Task 2:")
+
+const names = ["Alice", "Bob", "Charlie"];
+for (const name of names) {
+  console.log(name)
+}
+
+// Task 3
+console.log("Task 3:")
+
+const tasks = ["wash dishes", "code", "sleep"];
+tasks.forEach((task) => { console.log(task); });
+
