@@ -1,0 +1,10 @@
+// Arrays and loops
+
+// For loop is crazy in JS man
+
+numbers = [0, 1, 2, 3, 4, 5, 6, 7]
+
+for (let i = 0; i <= numbers.length; i++) {
+  console.log(numbers[i])
+}
+
