@@ -16,3 +16,19 @@ for (const fruit of fruits) {
   console.log(fruit)
 }
 
+// .forEach method
+
+const colors = ["red", "white", "blue"];
+
+colors.forEach((color, index) => {
+  console.log(color, index)
+});
+
+// Task 1
+console.log("Task 1:")
+
+taskNumbers = [1, 2, 3, 4, 5]
+for (let num = 1; num <= 5; num++) {
+  console.log(num)
+}
+
