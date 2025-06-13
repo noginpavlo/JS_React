@@ -15,7 +15,7 @@ console.log(addItem("Book"));
 
 // This is the same as above, but the 'function' keyword is replaced by arrow =>
 const saveThing = (thing) => {
-  return `Thing {thing} is saved!`;
+  return `Thing ${thing} is saved!`;
 }
 
 console.log(saveThing("Computer"));

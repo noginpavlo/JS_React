@@ -18,3 +18,11 @@ console.log("Task 2:")
 book.pages = 210;
 console.log(book["pages"]);
 
+// Loopint through object using for loop
+// Important note: for object for ... in loop is used. For other iterables for ... of
+console.log("Loopint througth object using for ... in syntax")
+
+for (const key in book) {
+  console.log(`Key = ${key}, value => ${book[key]}`)
+};
+
