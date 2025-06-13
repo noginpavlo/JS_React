@@ -16,8 +16,7 @@ for (const fruit of fruits) {
   console.log(fruit)
 }
 
-// .forEach method
-
+//.forEach method
 const colors = ["red", "white", "blue"];
 
 colors.forEach((color, index) => {
